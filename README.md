@@ -11,7 +11,7 @@ Atividade independente de Java 21 e Spring Boot. O tema é uma escola de magia, 
 
 ## Preparação do PostgreSQL
 
-Crie o banco `catalogocursos_dev` e um usuário próprio. Copie `.env.example` para `.env` e ajuste `DB_URL`, `DB_USERNAME` e `DB_PASSWORD`. Não publique senhas reais.
+Crie o banco `catalogocursos_dev` e um usuário próprio. Copie `.env.example` para `.env` e ajuste `DB_DEV_URL`, `DB_DEV_USERNAME` e `DB_DEV_PASSWORD`. Não publique senhas reais.
 
 ## Executar
 
