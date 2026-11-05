@@ -1,0 +1,10 @@
+{
+  "info": {"name":"Escola de Magia - Catálogo de Cursos","schema":"https://schema.getpostman.com/json/collection/v2.1.0/collection.json"},
+  "variable": [{"key":"baseUrl","value":"http://localhost:8080"},{"key":"instrutorId","value":"1"},{"key":"cursoId","value":"1"}],
+  "item": [
+    {"name":"01 - Cadastrar professor de magia","request":{"method":"POST","header":[{"key":"Content-Type","value":"application/json"}],"body":{"mode":"raw","raw":"{\n  \"nome\": \"Minerva McGonagall\",\n  \"email\": \"minerva@escolademagia.edu\"\n}"},"url":"{{baseUrl}}/api/instrutores"}},
+    {"name":"02 - Cadastrar curso mágico","request":{"method":"POST","header":[{"key":"Content-Type","value":"application/json"}],"body":{"mode":"raw","raw":"{\n  \"titulo\": \"Transfiguração para Iniciantes\",\n  \"cargaHoraria\": 40,\n  \"nivel\": \"INICIANTE\",\n  \"instrutorId\": {{instrutorId}}\n}"},"url":"{{baseUrl}}/api/cursos"}},
+    {"name":"03 - Consultar curso","request":{"method":"GET","url":"{{baseUrl}}/api/cursos/{{cursoId}}"}},
+    {"name":"04 - Listar cursos do professor","request":{"method":"GET","url":"{{baseUrl}}/api/instrutores/{{instrutorId}}/cursos"}}
+  ]
+}
