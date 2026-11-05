@@ -13,13 +13,15 @@ Atividade independente de Java 21 e Spring Boot. O tema é uma escola de magia, 
 
 Crie o banco `catalogocursos_dev` e um usuário próprio. Copie `.env.example` para `.env` e ajuste `DB_DEV_URL`, `DB_DEV_USERNAME` e `DB_DEV_PASSWORD`. Não publique senhas reais.
 
-## Executar
+## Executar pelo terminal do Postman
 
-No Windows, dê dois cliques em `INICIAR-SISTEMA.bat` ou execute:
+Abra o projeto no Postman, abra o terminal integrado na raiz do projeto e execute:
 
 ```powershell
 .\mvnw.cmd spring-boot:run
 ```
+
+O Spring Boot carrega automaticamente as configurações do arquivo `.env`. Mantenha o terminal executando enquanto utilizar as requisições.
 
 Importe `postman/Escola-de-Magia.postman_collection.json` no Postman.
 
