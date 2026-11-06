@@ -1,6 +1,21 @@
 # Escola de Magia - Catálogo de Cursos
 
+<p align="center">
+  <a href="https://tenor.com/pt-BR/view/memes-gif-20407027">
+    <img src="https://media1.tenor.com/m/IqPotHAztSYAAAAC/memes.gif" alt="Gandalf aprovando a Escola de Magia" width="498">
+  </a>
+</p>
+
 Atividade independente de Java 21 e Spring Boot. O tema é uma escola de magia, preservando o modelo obrigatório `Instrutor 1:N Curso`.
+
+## Evidências da entrega
+
+- **Repositório:** https://github.com/CauaCHO/atividade-catalogo-cursos
+- **Banco utilizado:** `catalogocursos_dev`
+- **Comando de verificação:** `.\mvnw.cmd clean test`
+- **Resultado:** 4 testes executados, 0 falhas, 0 erros e `BUILD SUCCESS`.
+
+O hash solicitado na entrega deve ser o do commit mais recente do repositório. Ele pode ser consultado com `git rev-parse HEAD`.
 
 ## Domínio
 
@@ -46,11 +61,3 @@ Importe `postman/Escola-de-Magia.postman_collection.json` no Postman.
 - A chave estrangeira `instrutor_id` fica na tabela `curso`.
 - Entidades não são retornadas diretamente para evitar acoplamento e recursão JSON; a API usa DTOs.
 
-## Evidências da entrega
-
-- **Repositório:** https://github.com/CauaCHO/atividade-catalogo-cursos
-- **Banco utilizado:** `catalogocursos_dev`
-- **Comando de verificação:** `.\mvnw.cmd clean test`
-- **Resultado:** 4 testes executados, 0 falhas, 0 erros e `BUILD SUCCESS`.
-
-O hash solicitado na entrega deve ser o do commit mais recente do repositório. Ele pode ser consultado com `git rev-parse HEAD`.
