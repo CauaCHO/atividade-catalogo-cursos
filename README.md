@@ -45,3 +45,12 @@ Importe `postman/Escola-de-Magia.postman_collection.json` no Postman.
 - O lado proprietário é `Curso`, pois contém a associação `ManyToOne`.
 - A chave estrangeira `instrutor_id` fica na tabela `curso`.
 - Entidades não são retornadas diretamente para evitar acoplamento e recursão JSON; a API usa DTOs.
+
+## Evidências da entrega
+
+- **Repositório:** https://github.com/CauaCHO/atividade-catalogo-cursos
+- **Banco utilizado:** `catalogocursos_dev`
+- **Comando de verificação:** `.\mvnw.cmd clean test`
+- **Resultado:** 4 testes executados, 0 falhas, 0 erros e `BUILD SUCCESS`.
+
+O hash solicitado na entrega deve ser o do commit mais recente do repositório. Ele pode ser consultado com `git rev-parse HEAD`.
