@@ -8,12 +8,14 @@
 
 Atividade independente de Java 21 e Spring Boot. O tema é uma escola de magia, preservando o modelo obrigatório `Instrutor 1:N Curso`.
 
+**Alunos:** Cauã H. Oliveira e Leonardo Guilherme
+
 ## Evidências da entrega
 
 - **Repositório:** https://github.com/CauaCHO/atividade-catalogo-cursos
 - **Banco utilizado:** `catalogocursos_dev`
 - **Comando de verificação:** `.\mvnw.cmd clean test`
-- **Resultado:** 4 testes executados, 0 falhas, 0 erros e `BUILD SUCCESS`.
+- **Resultado:** 6 testes executados, 0 falhas, 0 erros e `BUILD SUCCESS`.
 
 O hash solicitado na entrega deve ser o do commit mais recente do repositório. Ele pode ser consultado com `git rev-parse HEAD`.
 
